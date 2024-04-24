@@ -1,7 +1,7 @@
 <?php 
 ob_start();
-$admin = YOUR_ID;
-$API_KEY = 'YOUR_TOKEN'; 
+$admin = 7025988597;
+$API_KEY = '7069200199:AAFs7XSlgtN1WPHQ5COdj_utNHMCF7nnkdQ'; 
 define('API_KEY',$API_KEY);
 echo file_get_contents("https://api.telegram.org/bot$API_KEY/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."");
 function bot($method, $datas = []) {
